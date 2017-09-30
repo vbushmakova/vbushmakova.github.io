@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "ComfortaaRegular";
+  src: url("../ComfortaaRegular.eot");
+  src: url("../ComfortaaRegular.eot?#iefix") format("embedded-opentype"), url("../ComfortaaRegular.woff") format("woff"), url("../ComfortaaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  font-family: "ComfortaaRegular";
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  color: red;
+}
+#menu1,
+#menu2,
+#menu3,
+#menu4 {
+  margin-right: 70px;
+}
+#menu1 li,
+#menu2 li,
+#menu3 li,
+#menu4 li {
+  width: 13%;
+  list-style-type: none;
+  float: right;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 30%;
+  text-align: center;
+  font-size: 14pt;
+  box-shadow: 0px 1px 2px 2px #3f3f3f;
+}
+#menu1 li a,
+#menu2 li a,
+#menu3 li a,
+#menu4 li a {
+  text-decoration: none;
+}
+#menu1 li a:visited,
+#menu2 li a:visited,
+#menu3 li a:visited,
+#menu4 li a:visited {
+  color: #000000;
+}
+#menu1 li a:hover,
+#menu2 li a:hover,
+#menu3 li a:hover,
+#menu4 li a:hover {
+  color: red;
+}
+#section0 {
+  background-image: url('../section1.png');
+}
+#section1 {
+  background-image: url('../152.png');
+}
+#section2 {
+  background-image: url('../91.png');
+}
+.username {
+  line-height: 22pt;
+  float: left;
+  margin-left: 70px;
+  margin-top: 70px;
+  font-size: 14pt;
+  width: 50%;
+}
+.photoright {
+  float: right;
+  margin-right: 70px;
+  margin-top: 50px;
+  width: auto;
+}
+.photoleft {
+  float: left;
+  margin-left: 70px;
+  margin-top: 70px;
+  width: auto;
+}
+.round {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20%;
+  box-shadow: 0px 4px 4px 4px #3f3f3f;
+  float: right;
+}
+.round img {
+  width: auto;
+  height: 104%;
+}
+.slideimage {
+  width: auto;
+  border-radius: 30%;
+  box-shadow: 0px 4px 4px 4px #3f3f3f;
+  float: left;
+}
+.slideimage img {
+  overflow: hidden;
+  border-radius: 30%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.fp-slidesNav {
+  margin-top: 40px;
+}
+.contact {
+  font-size: 20pt;
+  float: left;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.contact a {
+  color: #000000;
+  text-decoration: none;
+}
+.contact a:visited {
+  color: #000000;
+}
+.contact a:hover {
+  color: red;
+}
+.mapsleft {
+  float: left;
+  margin-left: 70px;
+  margin-top: 100px;
+  width: auto;
+  overflow: hidden;
+  border-radius: 12%;
+  box-shadow: 0px 4px 4px 4px #3f3f3f;
+}
+.rotatable {
+  -webkit-transform: rotate(-45deg);
+  margin-left: 120px;
+  margin-top: 100px;
+  font-size: 20pt;
+}
+.centre {
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 35%;
+  font-size: 14pt;
+}
+.right1 {
+  float: left;
+  margin-left: 70px;
+  margin-top: 70px;
+  max-width: 25%;
+  max-height: 30%;
+}
+.left1 {
+  float: left;
+  margin-left: 70px;
+  margin-top: 210px;
+  width: 25%;
+}
+.page {
+  width: 90%;
+}

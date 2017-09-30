@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Бушмакова</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="js/fullPage/jquery.fullPage.css" >
+</head>
+<body>
+
+<div id="fullpage">
+
+
+        <div class="section" id="section0">
+            <div class="intro">
+                <ul id="menu1">
+                    <li data-menuanchor="firstPage"><a href="#firstPage">Обо мне</a></li>
+                    <li data-menuanchor="secondPage"><a href="#secondPage">Что знаю</a></li>
+                    <li data-menuanchor="3rdPage"><a href="#3rdPage">Контакты</a></li>
+                </ul>
+
+                <div class="username" id="universiti">
+                    <h1>Добрый день!</h1>
+                    <p> Меня зовут Виктория Бушмакова </p>
+                    <p> Мне 23 года и я очень позитивный человек.</p>
+                    <p>На данный момент я обучаюсь по направлению Информатика и ВТ на кафедре Системного анализа и телекоммуникаций.</p>
+                    <p>Почему я выбрала фронтэнд? </p>
+                    <p>Наверное потому что нравится визуальная часть всего процесса.
+                        Здесь нет необходимости работать с огромными количествами данных.</p>
+                </div>
+                <div class="photoright round"> <img  src="22.png"></div>
+            </div>
+         </div>
+
+
+        <div class="section" id="section1">
+            <div class="slide" id="slide1">
+                <div class="intro">
+                    <ul id="menu2">
+                        <li data-menuanchor="firstPage"><a href="#firstPage">Обо мне</a></li>
+                        <li data-menuanchor="secondPage"><a href="#secondPage">Что знаю</a></li>
+                        <li data-menuanchor="3rdPage"><a href="#3rdPage">Контакты</a></li>
+                    </ul>
+                    <div class="page">
+                        <div class="left1 slideimage"> <img  src="fe.jpg"></div>
+                             <div class="centre">
+                                <h1>Что я знаю?</h1>
+                                 <ul>
+                                     <li>Немного знаю HTML, js, LESS -мне же удалось это заставить работать</li>
+                                     <li>Проходила пару курсов на geekbrains</li>
+                                    <li>В институте у нас был курс веб-программирование в рамах которого мы знакомились с основами и пробовали немного что-то делать, там был html5, css, ну и самое простое Wordpress.
+                                    Материалы для обучения брали в интернете на всевозможных обучающих сайтах. </li>
+                                 </ul>
+                             </div>
+                        <div class="right1 slideimage"> <img  src="fe.png"></div>
+                    </div>
+                </div>
+
+                <div class="slide" id="slide2">
+                    <ul id="menu3">
+                        <li data-menuanchor="firstPage"><a href="#firstPage">Обо мне</a></li>
+                        <li data-menuanchor="secondPage"><a href="#secondPage">Что знаю</a></li>
+                        <li data-menuanchor="3rdPage"><a href="#3rdPage">Контакты</a></li>
+                    </ul>
+                        <div class="username">
+                            <h1>Что я знаю?</h1>
+                            <p> Весь проект данной странички </p>
+                            <p>Вы можете просмотреть в репозитории:  </p>
+                        <a href="https://github.com/vbushmakova/allFiles.git"><img src="http://www.seaicons.com/wp-content/uploads/2016/07/labeled-grey-2-icon.png"> </a>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="section" id="section2">
+                <div class="intro">
+                    <ul id="menu4">
+                        <li data-menuanchor="firstPage"><a href="#firstPage">Обо мне</a></li>
+                        <li data-menuanchor="secondPage"><a href="#secondPage">Что знаю</a></li>
+                        <li data-menuanchor="3rdPage"><a href="#3rdPage">Контакты</a></li>
+                    </ul>
+                        <div class="mapsleft">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3AJtQWpqgCX4f3-sVt3eoE_Sn1pWSQVAw8&amp;width=600&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    <div class="contact">
+                        <h1>Мои контакты</h1>
+                        <ul>
+                            <li><a href="https://vk.com/vika_bushmakova">vk.com</a> </li>
+                            <li><a href="https://t.me/vbushmakova">Telegram </a> </li>
+                            <li>vbushmakova@ya.ru</li>
+                            <li>+79287782510</li>
+                        </ul>
+                        <div class="rotatable">Очень хочу научиться верстать <p> правильно и изящно</p></div>
+                    </div>
+                 </div>
+            </div>
+    </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/fullPage/jquery.fullPage.js"></script>
+        <script>
+            jQuery(document).ready(function($) {
+                $("#fullpage").fullpage({
+                    anchors:['firstPage','secondPage','3rdPage'],
+                    menu:'#menu',
+                    controlArrows: false,
+                    scrollBar:false,
+                    scrollOverflow:true,
+                    navigation:true,
+                    navigationTooltips:['Обо мне','Интересы','Сертификаты'],
+                    slidesNavigation:true,
+                    navigationPosition:'left',
+                    slidesNavPosition:'top',
+                    loopTop:false,
+                    loopBottom:false,
+                    loopHorizontal:false
+
+
+            });
+            })
+        </script>
+    </body>
+    </html>
